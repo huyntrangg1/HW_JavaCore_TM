@@ -6,7 +6,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         //bai 1
-        System.out.print("Enter your  name: ");
+        System.out.println("Excercise 1: ");
+        System.out.print("Enter your name: ");
         String name = sc.nextLine();
         String[] arrName = name.split("\t");
         System.out.print("→ ");
@@ -16,7 +17,8 @@ public class Main {
 
         //bai2
         //nhap so phan tu
-        System.out.println("\nNhập số phần tử của mảng: ");
+        System.out.println("\nExcercise 2: ");
+        System.out.println("Nhập số phần tử của mảng: ");
         int numberArray = sc.nextInt();
         int[] array = new int[numberArray];
 
@@ -28,24 +30,25 @@ public class Main {
 
         //in mang
         System.out.print("array = [");
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
+        for (int i : array) {
+            System.out.print(i + " ");
         }
         System.out.print("\b]");
 
         //in lai mang sau khi tang 1dvi cho phan tu so chan
         System.out.print("\nCác phần tử là số chẵn trong mảng tăng lên 1 đơn vị: array = [");
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] % 2 == 0) {
-                array[i]++;
+        for (int i : array) {
+            if (i%2 ==0){
+                i++;
             }
-            System.out.print(array[i] + " ");
+            System.out.print(i + " ");
         }
         System.out.print("\b]");
 
 
         //bai3
-        System.out.print("\nNhập số phần tử của mảng: ");
+        System.out.println("\nExcercise 3: ");
+        System.out.print("Nhập số phần tử của mảng: ");
         int numberOfEle = sc.nextInt();
         int[] arr = new int[numberOfEle];
         for (int i = 0; i < numberOfEle; i++) {
@@ -85,5 +88,32 @@ public class Main {
 //        }
 //        System.out.print("min = " + min);
 
+
+        //Ex2: dung for-i
+//        System.out.println("\nExcercise 2: ");
+//        System.out.println("Nhập số phần tử của mảng: ");
+//        int numberArray = sc.nextInt();
+//        int[] array = new int[numberArray];
+//
+//        //nhap mang
+//        for (int i = 0; i < numberArray; i++) {
+//            System.out.println("Mời bạn nhập số thứ " + (i + 1) + " trong mảng: ");
+//            array[i] = sc.nextInt();
+//        }
+//
+//        System.out.print("array = [");
+//        for (int i = 0; i < array.length; i++) {
+//            System.out.print(array[i] + " ");
+//        }
+//        System.out.print("\b]");
+
+//        System.out.print("\nCác phần tử là số chẵn trong mảng tăng lên 1 đơn vị: array = [");
+//        for (int i = 0; i < array.length; i++) {
+//            if (array[i] % 2 == 0) {
+//                array[i]++;
+//            }
+//            System.out.print(array[i] + " ");
+//        }
+//    System.out.print("\b]");
     }
 }
