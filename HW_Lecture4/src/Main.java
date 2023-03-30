@@ -18,8 +18,14 @@ public class Main {
         //bai2
         //nhap so phan tu
         System.out.println("\nExcercise 2: ");
+
+
         System.out.println("Nhập số phần tử của mảng: ");
         int numberArray = sc.nextInt();
+        while (numberArray <= 0) {
+            System.out.println("Số phần tử của mạng không được nhỏ hơn hoặc bằng 0. \nHãy nhập lại số phần tử: ");
+            numberArray = sc.nextInt();
+        }
         int[] array = new int[numberArray];
 
         //nhap mang
@@ -38,7 +44,7 @@ public class Main {
         //in lai mang sau khi tang 1dvi cho phan tu so chan
         System.out.print("\nCác phần tử là số chẵn trong mảng tăng lên 1 đơn vị: array = [");
         for (int i : array) {
-            if (i%2 ==0){
+            if (i % 2 == 0) {
                 i++;
             }
             System.out.print(i + " ");
@@ -50,6 +56,11 @@ public class Main {
         System.out.println("\nExcercise 3: ");
         System.out.print("Nhập số phần tử của mảng: ");
         int numberOfEle = sc.nextInt();
+        while (numberOfEle <= 0) {
+            System.out.println("Số phần tử của mạng không được nhỏ hơn hoặc bằng 0. \nHãy nhập lại số phần tử: ");
+            numberOfEle = sc.nextInt();
+        }
+
         int[] arr = new int[numberOfEle];
         for (int i = 0; i < numberOfEle; i++) {
             System.out.print("Mời bạn nhập số thứ " + (i + 1) + " trong mảng: ");
@@ -68,7 +79,6 @@ public class Main {
                 min = i;
         }
         System.out.println("→ max = " + max + ", min = " + min);
-
 
 
         //dung for-i
