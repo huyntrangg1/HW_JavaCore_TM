@@ -15,6 +15,10 @@ public class Main {
 
             System.out.print("Enter your age: ");
             int age = sc.nextInt();
+            while (age <= 0) {
+                System.out.println("Không hợp lệ! Hãy nhập lại tuổi của bạn: ");
+                age = sc.nextInt();
+            }
             sc.nextLine();
 
             System.out.println("Your name: " + name);
