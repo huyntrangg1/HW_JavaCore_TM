@@ -18,10 +18,10 @@ public class Main {
         //bai2
         //nhap so phan tu
         System.out.println("\nExcercise 2: ");
-
-
         System.out.println("Nhập số phần tử của mảng: ");
         int numberArray = sc.nextInt();
+
+        //kiem tra so am hay duong
         while (numberArray <= 0) {
             System.out.println("Số phần tử của mạng không được nhỏ hơn hoặc bằng 0. \nHãy nhập lại số phần tử: ");
             numberArray = sc.nextInt();
@@ -56,12 +56,16 @@ public class Main {
         System.out.println("\nExcercise 3: ");
         System.out.print("Nhập số phần tử của mảng: ");
         int numberOfEle = sc.nextInt();
+
+        //kiem tra so am hay duong
         while (numberOfEle <= 0) {
             System.out.println("Số phần tử của mạng không được nhỏ hơn hoặc bằng 0. \nHãy nhập lại số phần tử: ");
             numberOfEle = sc.nextInt();
         }
 
         int[] arr = new int[numberOfEle];
+
+        //nhap mang
         for (int i = 0; i < numberOfEle; i++) {
             System.out.print("Mời bạn nhập số thứ " + (i + 1) + " trong mảng: ");
             arr[i] = sc.nextInt();
