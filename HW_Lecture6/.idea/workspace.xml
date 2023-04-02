@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8012e38b-2b9f-4e55-9d28-c56254a9ad61" name="Changes" comment="Ex2">
+      <change afterPath="$PROJECT_DIR$/../HW_Lecture6-Ex1-2/HW_Lecture6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/Exercise1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_Lecture6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Doctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Geometry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ManageHospital.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2NpyB97blSNT4qpQFzrQNd1cFeV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HW_Lecture6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8012e38b-2b9f-4e55-9d28-c56254a9ad61" name="Changes" comment="" />
+      <created>1680375179938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680375179938</updated>
+    </task>
+    <task id="LOCAL-00001" summary="HW_Lecture6">
+      <created>1680446970070</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680446970070</updated>
+    </task>
+    <task id="LOCAL-00002" summary="HW_Lecture6">
+      <created>1680448372479</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680448372479</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HW_Lecture6">
+      <created>1680448649876</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680448649876</updated>
+    </task>
+    <task id="LOCAL-00004" summary="HW_Lecture6">
+      <created>1680448674077</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680448674077</updated>
+    </task>
+    <task id="LOCAL-00005" summary="HW_Lecture6">
+      <created>1680450274623</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680450274623</updated>
+    </task>
+    <task id="LOCAL-00006" summary="HW_Lecture6">
+      <created>1680451662990</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680451662990</updated>
+    </task>
+    <task id="LOCAL-00007" summary="HW_Lecture6">
+      <created>1680459315811</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680459315811</updated>
+    </task>
+    <task id="LOCAL-00008" summary="HW_Lecture6">
+      <created>1680460041353</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680460041353</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Ex1">
+      <created>1680460832221</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680460832221</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ex1">
+      <created>1680460993513</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680460993513</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Ex2">
+      <created>1680461045514</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680461045514</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ex2">
+      <created>1680461133417</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680461133417</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HW_Lecture6" />
+    <MESSAGE value="Ex1" />
+    <MESSAGE value="Ex2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Patient.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
