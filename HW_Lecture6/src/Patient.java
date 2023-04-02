@@ -6,7 +6,7 @@ public class Patient extends ManageHospital{
     private String date;
 
     public Patient(int id, String name, int age, String medicalNumber, String date) {
-        super(id, name, age);
+        super(id, name,age);
         this.medicalNumber = medicalNumber;
         this.date = date;
     }
