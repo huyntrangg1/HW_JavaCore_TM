@@ -12,7 +12,7 @@ public class Patient extends ManageHospital{
 
     @Override
     public String toString() {
-        return "Patient{" + super.toString() +
+        return "- Patient{" + super.toString() +
                 ", medicalNumber=" + medicalNumber +
                 ", date=" + date +
                 '}';

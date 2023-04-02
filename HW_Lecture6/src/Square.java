@@ -8,22 +8,32 @@ public class Square extends Geometry {
     public double calArea() {
         return calArearOfSquare(side);
     }
+
     public double calPerimeter() {
         return calPerimeterOfSquare(side);
     }
 
-    public String  printResult() {
+    public String printResult() {
         if (side <= 0) {
-            return "Can't calculate the value of perimeter and area. Pls change the value of side!";
+            return "- Invalid value! Can't calculate the perimeter and area of the square. " +
+                    "Pls change the value of side!";
         } else {
-            return "The area of Square = " + calArearOfSquare(side) + "\nThe Perimeter of Square = "
+            return "- The area of Square = " + calArearOfSquare(side) + " & The Perimeter of Square = "
                     + calPerimeterOfSquare(side);
         }
     }
+
+    public String printSide() {
+        if (side <= 0) {
+            return "Invalid!";
+        }
+        return Double.toString(side);
+    }
+
     @Override
     public String toString() {
-        return "Square{" +
-                "side=" + side +
+        return "- Square{" +
+                "side=" + printSide() +
                 '}';
     }
 }

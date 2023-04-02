@@ -1,4 +1,4 @@
-public class Doctor extends ManageHospital{
+public class Doctor extends ManageHospital {
     private String specialist;
     private int workHours;
 
@@ -10,7 +10,7 @@ public class Doctor extends ManageHospital{
 
     @Override
     public String toString() {
-        return "Doctor{" + super.toString() +
+        return "Ex2: \n- Doctor{" + super.toString() +
                 ", specialist='" + specialist + '\'' +
                 ", workHours=" + workHours +
                 '}';

@@ -3,34 +3,50 @@ public class Rectangle extends Geometry {
     private double width;
 
     public Rectangle(double length, double width) {
-        if (length <=  0 || width <= 0) {
-            System.out.println("Length or width can't less than or equal 0.");
-        } else {
+        if (length > 0 || width > 0) {
             this.length = length;
             this.width = width;
         }
     }
 
-   public double calArea() {
-       return calAreaOfRec(length, width);
-   }
+    public double calArea() {
+        return calAreaOfRec(length, width);
+    }
+
     public double calPerimeter() {
         return calPerimeterOfRec(length, width);
     }
 
-    public String  printResult() {
+    public String printResult() {
         if (length <= 0 || width <= 0) {
-           return "Can't calculate the value of perimeter and area. Pls change the value of length & width!";
+            return "Ex1: \n- Invalid value! Can't calculate the perimeter and area of the rectangle. " +
+                    "Pls change the value of length & width!";
         } else {
-            return "The area of Rectangle = " + calAreaOfRec(length, width) + "\nThe Perimeter of Rectangle = "
-                    + calPerimeterOfRec(length, width)+"!";
+            return "1. The area of Rectangle = " + calAreaOfRec(length, width) + "\tThe Perimeter of Rectangle = "
+                    + calPerimeterOfRec(length, width) + "!";
         }
     }
+
+    // in canh:
+    public String printLength() {
+        if (length <= 0) {
+            return "Invalid!";
+        }
+        return Double.toString(length);
+    }
+
+    public String printWidth() {
+        if (width <= 0) {
+            return "Not valid!";
+        }
+        return Double.toString(width);
+    }
+
     @Override
     public String toString() {
-        return "Rectangle{" +
-                "length=" + length +
-                ", width=" + width +
+        return "- Rectangle{" +
+                "length=" + printLength() +
+                ", width=" + printWidth() +
                 '}';
     }
 }

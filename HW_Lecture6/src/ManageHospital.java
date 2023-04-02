@@ -11,10 +11,10 @@ private int age;
         }
     }
 
-
+    // kiem tra tuoi:
     public String printAlert() {
             if (age <= 0 || age >= 150) {
-                return "The age don't exist! ";
+                return "Invalid age!";
             }
             return Integer.toString(age);
         }
