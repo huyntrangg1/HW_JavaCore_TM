@@ -1,9 +1,3 @@
-import javax.print.Doc;
-import javax.print.DocFlavor;
-import javax.print.attribute.DocAttributeSet;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.Reader;
 import java.time.LocalDate;
 
 public class Main {
