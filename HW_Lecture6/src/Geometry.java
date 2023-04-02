@@ -10,7 +10,7 @@ public class Geometry {
         return a * b;
     }
 
-    public double calArearOfSquare(double a) {
+    public double calAreaOfSquare(double a) {
         return a * a;
     }
 

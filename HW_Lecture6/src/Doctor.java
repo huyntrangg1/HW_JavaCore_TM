@@ -8,11 +8,15 @@ public class Doctor extends ManageHospital {
         this.workHours = workHours;
     }
 
+    public String checkHours() {
+        return (workHours < 0) ? "Invalid working hours!": Integer.toString(workHours);
+    }
+
     @Override
     public String toString() {
         return "Ex2: \n- Doctor{" + super.toString() +
                 ", specialist='" + specialist + '\'' +
-                ", workHours=" + workHours +
+                ", workHours=" + checkHours() +
                 '}';
     }
 }

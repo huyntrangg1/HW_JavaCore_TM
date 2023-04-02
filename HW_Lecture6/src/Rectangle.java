@@ -3,43 +3,31 @@ public class Rectangle extends Geometry {
     private double width;
 
     public Rectangle(double length, double width) {
-        if (length > 0 || width > 0) {
-            this.length = length;
-            this.width = width;
-        }
+        this.length = length;
+        this.width = width;
     }
 
-    public double calArea() {
-        return calAreaOfRec(length, width);
-    }
-
-    public double calPerimeter() {
-        return calPerimeterOfRec(length, width);
-    }
-
-    public String printResult() {
+    public String cal() {
+        String result;
         if (length <= 0 || width <= 0) {
-            return "Ex1: \n- Invalid value! Can't calculate the perimeter and area of the rectangle. " +
-                    "Pls change the value of length & width!";
+            result = "Ex1:\n- Rectangle: Invalid length or width value! Can't calculate the perimeter and area. " +
+                    "Pls change the value of length or width!";
         } else {
-            return "1. The area of Rectangle = " + calAreaOfRec(length, width) + "\tThe Perimeter of Rectangle = "
-                    + calPerimeterOfRec(length, width) + "!";
+            double area = calAreaOfRec(length, width); //tinh dien tich
+            double perimeter = calPerimeterOfRec(length, width); //tinh chu vi
+            result = "Ex1.\n- Rectangle: The area = " + area + ", The Perimeter = " + perimeter;
         }
+        System.out.println(result);
+        return result;
     }
 
     // in canh:
     public String printLength() {
-        if (length <= 0) {
-            return "Invalid!";
-        }
-        return Double.toString(length);
+        return (length <= 0) ? "Invalid!" : Double.toString(length);
     }
 
     public String printWidth() {
-        if (width <= 0) {
-            return "Not valid!";
-        }
-        return Double.toString(width);
+        return (width <= 0) ? "Invalid!" : Double.toString(width);
     }
 
     @Override

@@ -1,33 +1,24 @@
 public class Square extends Geometry {
     private double side;
 
-    public Square(double side) {
-        if (side > 0) this.side = side;
-    }
+    public Square(double side) { this.side = side; }
 
-    public double calArea() {
-        return calArearOfSquare(side);
-    }
-
-    public double calPerimeter() {
-        return calPerimeterOfSquare(side);
-    }
-
-    public String printResult() {
-        if (side <= 0) {
-            return "- Invalid value! Can't calculate the perimeter and area of the square. " +
-                    "Pls change the value of side!";
+    public String cal() {
+        String result;
+        if (side <= 0) { result = "- Square: Invalid side value! Can't calculate the perimeter and area. "
+                + "Pls change the value of side!";
         } else {
-            return "- The area of Square = " + calArearOfSquare(side) + " & The Perimeter of Square = "
-                    + calPerimeterOfSquare(side);
+            double area = calAreaOfSquare(side); //tinh dien tich
+            double perimeter = calPerimeterOfSquare(side); //tinh chu vi
+            result = "- Square: The area = " + area + ", The Perimeter = " + perimeter;
         }
+            System.out.println(result);
+            return result;
     }
 
+    //in canh
     public String printSide() {
-        if (side <= 0) {
-            return "Invalid!";
-        }
-        return Double.toString(side);
+        return (side <= 0) ? "Invalid!" : Double.toString(side);
     }
 
     @Override
