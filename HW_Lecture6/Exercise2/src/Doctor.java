@@ -14,7 +14,7 @@ public class Doctor extends ManageHospital {
 
     @Override
     public String toString() {
-        return "Ex2: \n- Doctor{" + super.toString() +
+        return "- Doctor{" + super.toString() +
                 ", specialist='" + specialist + '\'' +
                 ", workHours=" + checkHours() +
                 '}';

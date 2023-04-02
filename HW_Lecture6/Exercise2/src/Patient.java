@@ -12,7 +12,7 @@ public class Patient extends ManageHospital{
     }
     //chuyen String thanh dang Date:
     public LocalDate getDate() {
-       return LocalDate.parse(date, DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+        return LocalDate.parse(date, DateTimeFormatter.ofPattern("yyyy-MM-dd"));
     }
 
     @Override
