@@ -1,8 +1,6 @@
 public class Square extends Geometry {
     private double side;
-
     public Square(double side) { this.side = side; }
-
     public String cal() {
         String result;
         if (side <= 0) { result = "- Square: Invalid side value! Can't calculate the perimeter and area. "
@@ -15,12 +13,10 @@ public class Square extends Geometry {
             System.out.println(result);
             return result;
     }
-
     //in canh
     public String printSide() {
         return (side <= 0) ? "Invalid!" : Double.toString(side);
     }
-
     @Override
     public String toString() {
         return "- Square{" +
