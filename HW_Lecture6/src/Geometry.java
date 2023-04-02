@@ -1,5 +1,4 @@
 public class Geometry {
-
     public double calPerimeterOfRec(double a, double b) {
         return (a + b) * 2;
     }
@@ -13,5 +12,4 @@ public class Geometry {
     public double calAreaOfSquare(double a) {
         return a * a;
     }
-
 }

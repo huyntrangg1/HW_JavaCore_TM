@@ -22,7 +22,7 @@ public class Rectangle extends Geometry {
     }
 
     // in canh:
-    public String printLength() {
+     public String printLength() {
         return (length <= 0) ? "Invalid!" : Double.toString(length);
     }
 

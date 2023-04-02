@@ -10,7 +10,7 @@ public class Patient extends ManageHospital{
         this.medicalNumber = medicalNumber;
         this.date = date;
     }
-
+    //chuyen String thanh dang Date:
     public LocalDate getDate() {
        return LocalDate.parse(date, DateTimeFormatter.ofPattern("yyyy-MM-dd"));
     }
