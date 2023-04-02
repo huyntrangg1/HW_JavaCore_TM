@@ -1,10 +1,12 @@
 public class Rectangle extends Geometry {
     private double length;
     private double width;
+
     public Rectangle(double length, double width) {
         this.length = length;
         this.width = width;
     }
+
     public String cal() {
         String result;
         if (length <= 0 || width <= 0) {
@@ -18,6 +20,7 @@ public class Rectangle extends Geometry {
         System.out.println(result);
         return result;
     }
+
     // in canh:
      public String printLength() {
         return (length <= 0) ? "Invalid!" : Double.toString(length);
@@ -26,6 +29,7 @@ public class Rectangle extends Geometry {
     public String printWidth() {
         return (width <= 0) ? "Invalid!" : Double.toString(width);
     }
+
     @Override
     public String toString() {
         return "- Rectangle{" +
