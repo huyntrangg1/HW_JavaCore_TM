@@ -6,7 +6,7 @@ public class ManageHospital {
     public ManageHospital(int id, String name, int age) {
         this.id = id;
         this.name = name;
-        this.age = age;
+        this.age =age;
     }
 
     // kiem tra tuoi:
