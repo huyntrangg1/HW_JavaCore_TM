@@ -8,7 +8,7 @@ public class Geometry {
         return a * 4;
     }
 
-    public double calculateAreaOfRec(double a, double b) {
+    public double calAreaOfRec(double a, double b) {
         return a * b;
     }
 
