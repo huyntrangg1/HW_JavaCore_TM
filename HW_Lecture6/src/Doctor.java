@@ -9,7 +9,7 @@ public class Doctor extends ManageHospital {
     }
 
     public String checkHours() {
-        return (workHours < 0) ? "Invalid working hours!": Integer.toString(workHours);
+        return (workHours <0) ? "Invalid working hours!": Integer.toString(workHours);
     }
 
     @Override
