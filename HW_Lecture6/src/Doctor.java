@@ -8,22 +8,6 @@ public class Doctor extends ManageHospital{
         this.workHours = workHours;
     }
 
-    public String getSpecialist() {
-        return specialist;
-    }
-
-    public void setSpecialist(String specialist) {
-        this.specialist = specialist;
-    }
-
-    public int getWorkHours() {
-        return workHours;
-    }
-
-    public void setWorkHours(int workHours) {
-        this.workHours = workHours;
-    }
-
     @Override
     public String toString() {
         return "Doctor{" + super.toString() +

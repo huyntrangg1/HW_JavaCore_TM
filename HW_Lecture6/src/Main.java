@@ -37,10 +37,10 @@ public class Main {
         // bai2: manageHospital
 
         Doctor doctor = new Doctor(1, "han", -4, "ENT", 60);
-       doctor.printAlert();
-        Patient patient = new Patient(1, "mai", 67, 1234, LocalDate.of(2020,10,2));
-patient.printAlert();
-        System.out.println(doctor + "\n" +patient);
+        doctor.printAlert();
+        Patient patient = new Patient(1, "mai", 67, 1234, LocalDate.of(2020, 10, 2));
+        patient.printAlert();
+        System.out.println(doctor + "\n" + patient);
 
     }
 

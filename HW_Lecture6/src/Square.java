@@ -12,9 +12,6 @@ public class Square extends Geometry {
         return side;
     }
 
-    public void setSide(double side) {
-        if (side > 0) this.side = side;
-    }
     public String  printResult() {
         if (side <= 0) {
             return "Can't calculate the value of perimeter and area. Pls change the value of side!";
