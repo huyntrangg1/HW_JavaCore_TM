@@ -6,7 +6,7 @@ private int age;
     public ManageHospital(int id, String name, int age) {
         this.id = id;
         this.name = name;
-        if (0<age && age <=110) {
+        if (0<age && age <=150) {
             this.age = age;
         }
     }
@@ -37,11 +37,18 @@ private int age;
         }
     }
 
+    public String printAlert() {
+            if (age <= 0 || age >= 150) {
+                return "The age don't exist! ";
+            }
+            return Integer.toString(age);
+        }
+
     @Override
     public String toString() {
         return
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", age=" + age;
+                ", age=" + printAlert();
     }
 }

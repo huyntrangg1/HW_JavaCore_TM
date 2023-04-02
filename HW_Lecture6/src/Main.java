@@ -9,7 +9,7 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
         //Hinh chu nhat:
-        Rectangle rectangle = new Rectangle(3, 4);
+        Rectangle rectangle = new Rectangle(-3, 4);
         //getLength&Width
         double length = rectangle.getLength();
         double width = rectangle.getWidth();
@@ -25,8 +25,9 @@ public class Main {
         double areaOfSquare = square.calArearOfSquare(side);
         double perimeterOfSquare = square.calPerimeterOfSquare(side);
 
-        System.out.println("Diện tích hình chữ nhật là: " + areaOfRec + "\nChu vi hình chữ nhật là: " + perimeterOfRec);
-        System.out.println("Diện tích hình vuông là: " + areaOfSquare + "\nChu vi hình vuông là: " + perimeterOfSquare);
+//        System.out.println("Diện tích hình chữ nhật là: " + areaOfRec + "\nChu vi hình chữ nhật là: " + perimeterOfRec);
+        System.out.println(rectangle.printResult());
+//        System.out.println("Diện tích hình vuông là: " + areaOfSquare + "\nChu vi hình vuông là: " + perimeterOfSquare);
 
         //in thong tin cac canh:
         System.out.println(rectangle);
@@ -34,9 +35,11 @@ public class Main {
 
 
         // bai2: manageHospital
-        Doctor doctor = new Doctor(1, "han", -4, "ENT", 60);
-        Patient patient = new Patient(1, "mai", 67, 1234, LocalDate.of(2020,10,2));
 
+        Doctor doctor = new Doctor(1, "han", -4, "ENT", 60);
+       doctor.printAlert();
+        Patient patient = new Patient(1, "mai", 67, 1234, LocalDate.of(2020,10,2));
+patient.printAlert();
         System.out.println(doctor + "\n" +patient);
 
     }
