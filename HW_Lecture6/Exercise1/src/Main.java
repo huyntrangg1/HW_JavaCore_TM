@@ -7,11 +7,7 @@ public class Main {
         //Hinh vuong/;/
         Square square = new Square(3);
 
-        //tinh va in ket qua:
-        rectangle.cal(); //hcn
-        square.cal(); //hv
-
-        //in thong tin cac gia tri cua hinh:
+        //in thong tin cac gia tri cua hinh va ket qua tinh:
         System.out.println(rectangle + "\n" + square);
     }
 }
