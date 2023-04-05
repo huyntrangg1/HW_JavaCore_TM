@@ -22,7 +22,6 @@ public abstract class SinhVienTechmaster {
 
     @Override
     public String toString() {
-
         return  "{"+
                 "fullname='" + fullname + '\'' +
                 ", major='" + major + '\'' + ", score = " + getScore() + ", grade = " +getGrade() +

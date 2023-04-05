@@ -64,17 +64,12 @@ public class Main {
             }
         }
 
+        //in ra phan tu trong mang
         System.out.print("Sinh viên Techmaster = {");
-        for (int i = 0; i < sinhVien.length; i++) {
-            System.out.print(sinhVien[i] + ", ");
+        for (SinhVienTechmaster i : sinhVien) {
+            System.out.println(i + ", ");
         }
         System.out.print("\b\b}");
-
-        //in ra phan tu trong mang
-//        for (SinhVienTechmaster i : sinhVien) {
-//            System.out.println("Sinh viên Techmaster = " + i);
-//        }
-
     }
 }
 
