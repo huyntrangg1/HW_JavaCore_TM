@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68dd8994-3f9a-41e8-9f84-3ef2637d5b7c" name="Changes" comment="Ex1">
+      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/HW_Lecture7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/src/SinhVienBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/src/SinhVienIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/src/SinhVienTechmaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Geometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Geometry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercise1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise2/out/production/Exercise2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2/out/production/Exercise2/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +139,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680463014138</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ex1">
+      <created>1680523859551</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680523859551</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ex1">
+      <created>1680523891131</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680523891131</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

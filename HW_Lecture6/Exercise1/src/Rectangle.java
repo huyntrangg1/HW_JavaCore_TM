@@ -19,7 +19,7 @@ public class Rectangle extends Geometry {
         return (length <= 0 || width <= 0) ? "- Rectangle: Invalid length or width value! Pls change the value of length or width!" :
                 "- Rectangle: The area = " + getArea() + ", The Perimeter = " + getPerimeter();
     }
-
+    
     // ktra va in canh:
     public String checkLength() {
         return length <= 0 ? "Invalid!" : Double.toString(length);
