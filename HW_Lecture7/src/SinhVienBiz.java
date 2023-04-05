@@ -2,11 +2,10 @@ public class SinhVienBiz extends SinhVienTechmaster {
     private double scoreMarketting;
     private double scoreSales;
 
-
     public SinhVienBiz(String fullname, String major, double scoreMarketting, double scoreSales) {
         super(fullname, major);
         this.scoreMarketting = scoreMarketting;
-         this.scoreSales = scoreSales;
+        this.scoreSales = scoreSales;
     }
 
     @Override
