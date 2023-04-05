@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68dd8994-3f9a-41e8-9f84-3ef2637d5b7c" name="Changes" comment="Ex1">
-      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/HW_Lecture7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/src/SinhVienBiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/src/SinhVienIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HW_Lecture7/src/SinhVienTechmaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercise1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise2/out/production/Exercise2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2/out/production/Exercise2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Lecture7/out/production/HW_Lecture7/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW_Lecture7/out/production/HW_Lecture7/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Lecture7/out/production/HW_Lecture7/SinhVienBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW_Lecture7/out/production/HW_Lecture7/SinhVienBiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Lecture7/out/production/HW_Lecture7/SinhVienIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW_Lecture7/out/production/HW_Lecture7/SinhVienIT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Lecture7/out/production/HW_Lecture7/SinhVienTechmaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW_Lecture7/out/production/HW_Lecture7/SinhVienTechmaster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Lecture7/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW_Lecture7/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Lecture7/src/SinhVienBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW_Lecture7/src/SinhVienBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Lecture7/src/SinhVienIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW_Lecture7/src/SinhVienIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Lecture7/src/SinhVienTechmaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW_Lecture7/src/SinhVienTechmaster.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
