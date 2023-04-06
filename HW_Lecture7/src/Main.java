@@ -29,7 +29,6 @@ public class Main {
                 SinhVienIT svIt = new SinhVienIT(fullname, major, inputScore(sc, "Java"),
                         inputScore(sc, "Html"), inputScore(sc, "Css"));
                 sinhVien[i] = svIt;
-
             } else if (major.equalsIgnoreCase("biz")) {
                 SinhVienBiz svB = new SinhVienBiz(fullname, major, inputScore(sc, "Marketting"),
                         inputScore(sc, "Sales"));
@@ -45,14 +44,13 @@ public class Main {
         System.out.println("\b\b}");
     }
 
-
     public static double inputScore(Scanner sc, String subject) {
         double score = -1;
         while (score < 0 || score > 10) {
             System.out.println("Enter your score of " + subject + ": ");
             score = Double.parseDouble(sc.nextLine());
             if (score < 0 || score > 10) {
-                System.out.print("Score must be between 0 and 10. Please try again: ");
+                System.out.print("Score must be between 0 and 10. Please try again! ");
             }
         }
         return score;
