@@ -7,7 +7,8 @@ public class Main {
         System.out.println("Enter the number of elements: ");
         int number = Integer.parseInt(sc.nextLine());
         while (number <= 0) {
-            System.out.println("Invalid! Enter again");
+            System.out.print("Invalid! Enter again: ");
+            number = Integer.parseInt(sc.nextLine());
         }
         SinhVienTechmaster[] sinhVien = new SinhVienTechmaster[number];
 
@@ -15,7 +16,7 @@ public class Main {
         for (int i = 0; i < sinhVien.length; i++) {
             System.out.println("Enter your fullname: ");
             String fullname = sc.nextLine();
-            System.out.println("Enter your major: ");
+            System.out.println("Enter your major (IT or BIZ): ");
             String major = sc.nextLine();
 
             // kiem tra major người dùng nhập vào
@@ -25,41 +26,13 @@ public class Main {
             }
             //major check: "it" or "biz"
             if (major.equalsIgnoreCase("it")) {
-                System.out.println("Enter your score of Java: ");
-                double scoreJava = Double.parseDouble(sc.nextLine());
-                while (scoreJava< 0 || scoreJava > 10) {
-                    System.out.print("Score must be between 0 and 10. Please try again: ");
-                    scoreJava = Double.parseDouble(sc.nextLine());
-                }
-                System.out.println("Enter your score of Html: ");
-                double scoreHtml = Double.parseDouble(sc.nextLine());
-                while (scoreHtml < 0 || scoreHtml > 10) {
-                    System.out.print("Score must be between 0 and 10. Please try again: ");
-                    scoreHtml = Double.parseDouble(sc.nextLine());
-                }
-                System.out.println("Enter your score of Css: ");
-                double scoreCss = Double.parseDouble(sc.nextLine());
-                while (scoreCss < 0 || scoreCss > 10) {
-                    System.out.print("Score must be between 0 and 10. Please try again: ");
-                    scoreCss = Double.parseDouble(sc.nextLine());
-                }
-                SinhVienIT svIt = new SinhVienIT(fullname, major, scoreJava, scoreHtml, scoreCss);
+                SinhVienIT svIt = new SinhVienIT(fullname, major, inputScore(sc, "Java"),
+                        inputScore(sc, "Html"), inputScore(sc, "Css"));
                 sinhVien[i] = svIt;
 
             } else if (major.equalsIgnoreCase("biz")) {
-                System.out.println("Enter your score of Marketting: ");
-                double scoreMarketing = Double.parseDouble(sc.nextLine());
-                while (scoreMarketing < 0 || scoreMarketing > 10) {
-                    System.out.print("Score must be between 0 and 10. Please try again: ");
-                    scoreMarketing = Double.parseDouble(sc.nextLine());
-                }
-                System.out.println("Enter your score of Sales: ");
-                double scoreSales = Double.parseDouble(sc.nextLine());
-                if (scoreSales < 0 || scoreSales > 10) {
-                    System.out.print("Score must be between 0 and 10. Please try again: ");
-                    scoreSales = Double.parseDouble(sc.nextLine());
-                }
-                SinhVienBiz svB = new SinhVienBiz(fullname, major, scoreMarketing, scoreSales);
+                SinhVienBiz svB = new SinhVienBiz(fullname, major, inputScore(sc, "Marketting"),
+                        inputScore(sc, "Sales"));
                 sinhVien[i] = svB;
             }
         }
@@ -70,6 +43,19 @@ public class Main {
             System.out.print(i + ", ");
         }
         System.out.println("\b\b}");
+    }
+
+
+    public static double inputScore(Scanner sc, String subject) {
+        double score = -1;
+        while (score < 0 || score > 10) {
+            System.out.println("Enter your score of " + subject + ": ");
+            score = Double.parseDouble(sc.nextLine());
+            if (score < 0 || score > 10) {
+                System.out.print("Score must be between 0 and 10. Please try again: ");
+            }
+        }
+        return score;
     }
 }
 
