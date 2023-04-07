@@ -13,7 +13,7 @@ public class Main {
         StudentHandle studentHandle = new StudentHandle();
 
         for (int i = 0; i < students.length; i++) {
-            Student student = studentHandle.creatStudent(sc);
+            Student student = studentHandle.creatStudent(sc, i);
             students[i] = student;
         }
         studentHandle.displayAllStudent(students);

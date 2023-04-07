@@ -5,8 +5,9 @@ import entity.Student;
 import java.util.Scanner;
 
 public class StudentHandle {
-    public Student creatStudent(Scanner sc) {
+    public Student creatStudent(Scanner sc, int i) {
         Student student = new Student();
+        System.out.println("Mời bạn nhập tên student thứ " + (i+1) + ":");
         System.out.println("Enter your name: ");
         student.setName(sc.nextLine());
         student.setScoreMath(inputScore(sc, "Math"));
