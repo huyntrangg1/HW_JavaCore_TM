@@ -1,7 +1,5 @@
 package entity;
 
-import handle.StudentHandle;
-
 public class Student {
     private static int autoId;
     private int id;
@@ -13,7 +11,6 @@ public class Student {
     public Student() {
        this.id = ++autoId;
     }
-
 
     public void setName(String name) {
         this.name = name;

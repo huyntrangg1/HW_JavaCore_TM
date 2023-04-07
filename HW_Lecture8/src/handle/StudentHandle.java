@@ -27,7 +27,6 @@ public class StudentHandle {
         return score;
     }
 
-
     public double getAverage(Student student) {
         return (student.getScoreMath() + student.getScoreChemistry() + student.getScorePhysic()) / 3;
     }
@@ -50,7 +49,6 @@ public class StudentHandle {
         }
     }
 
-
     public void percentageEachGrade(Student[] students) {
         int countGradeA = 0;
         int countGradeB = 0;
@@ -66,14 +64,13 @@ public class StudentHandle {
             }
         }
             int total = countGradeA + countGradeB + countGradeC;
-            double percentA = Math.round(((double) countGradeA / total) * 100);
-            double percentB = Math.round(((double) countGradeB / total) * 100);
-            double percentC = Math.round(((double) countGradeC / total) * 100);
+            double percentA = ((double) countGradeA / total) * 100;
+            double percentB = ((double) countGradeB / total) * 100;
+            double percentC = ((double) countGradeC / total) * 100;
             System.out.println("Percentage of each type of student:");
             System.out.println("- A: " + percentA + "%");
             System.out.println("- B: " + percentB + "%");
             System.out.println("- C: " + percentC + "%");
-
     }
 }
 
