@@ -8,11 +8,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SummonRiftHandle {
-    public SummonRift creatSummonRift(Scanner sc){
+    public SummonRift creatSummonRift(Scanner sc) {
         TeamsHandle teamsHandle = new TeamsHandle();
-        ArrayList<Teams> teams =new ArrayList<>();
+        ArrayList<Teams> teams = new ArrayList<>();
         for (int i = 0; i < 2; i++) {
-            System.out.println("Team thứ "  +(i+1) +": ");
+            System.out.println("Team thứ " + (i + 1) + ": ");
             teams.add(teamsHandle.creatTeam(sc));
         }
         return new SummonRift(teams);
