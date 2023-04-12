@@ -12,7 +12,7 @@ public class SummonRiftHandle {
         TeamsHandle teamsHandle = new TeamsHandle();
         ArrayList<Teams> teams =new ArrayList<>();
         for (int i = 0; i < 2; i++) {
-            System.out.println("Nhập thông tin team thứ "  +(i+1) +": ");
+            System.out.println("Team thứ "  +(i+1) +": ");
             teams.add(teamsHandle.creatTeam(sc));
         }
         return new SummonRift(teams);

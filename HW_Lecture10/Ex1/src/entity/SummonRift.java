@@ -12,8 +12,7 @@ private ArrayList<Teams> teams;
 
     @Override
     public String toString() {
-        return "SummonRift{" +
-                "teams=" + teams +
-                '}';
+        return "SummonRift: " +"\n"+ teams +"\b";
+
     }
 }

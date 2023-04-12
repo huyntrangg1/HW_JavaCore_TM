@@ -11,8 +11,7 @@ private ArrayList<Figure> figures;
 
     @Override
     public String toString() {
-        return "Teams{" +
-                "figures=" + figures +
-                '}';
+        return "\b\bTeam: " +
+                  figures+"\n";
     }
 }
