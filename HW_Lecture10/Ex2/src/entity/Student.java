@@ -8,7 +8,7 @@ public class Student {
     private String grade;
 
     public Student() {
-        this.id=++autoId;
+        this.id = ++autoId;
     }
 
     public int getId() {

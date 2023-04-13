@@ -23,8 +23,7 @@ public class Menu {
                     classHandle.displayClassroom(classrooms);
                     break;
                 case 2:
-                 classHandle.addStudent(classroom,students, sc);
-
+                    classHandle.addStudent(classroom,students, sc);
                     break;
                 case 3:
                     classHandle.updateGrade(classroom,students,sc);
@@ -39,5 +38,4 @@ public class Menu {
             }
         }
     }
-
 }
