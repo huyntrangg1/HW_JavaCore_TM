@@ -39,7 +39,6 @@ public class ClassHandle {
             if (id == students.get(i).getId()) {
                 System.out.println("Nhập học lực mới của sinh viên: ");
                 students.get(i).setGrade(sc.nextLine());
-                classroom.setStudents(students);
                 System.out.println("Cập nhật thành công!");
                 flag = true;
                 classroom.setStudents(students);
@@ -48,7 +47,6 @@ public class ClassHandle {
         if (flag == false) {
             System.out.println("Không tồn tại id bạn nhập!");
         }
-
     }
 
     public void removeStudent(Classroom classroom, ArrayList<Student> students, Scanner sc) {
