@@ -13,7 +13,7 @@ public class ClassHandle {
         String subject = sc.nextLine();
         classroom.setSubject(subject);
         StudentHandle studentHandle = new StudentHandle();
-        students.add(studentHandle.creatStudent(sc));
+        students = studentHandle.createStudent(sc);
         classroom.setStudents(students);
         return classroom;
     }
