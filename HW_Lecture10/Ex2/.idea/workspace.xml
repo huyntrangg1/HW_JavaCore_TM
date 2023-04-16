@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773863d2-f612-4f4d-ba5f-021b90f7e824" name="Changes" comment="HW">
-      <change afterPath="$PROJECT_DIR$/../../Midterm/out/production/Login-Logout-Register(Midterm)/handle/AccountHandle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Midterm/src/MyException/InvalidEmailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Midterm/src/MyException/InvalidPasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Midterm/src/entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Midterm/src/handle/AccountFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Midterm/src/handle/AccountHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Midterm/src/handle/CheckValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Midterm/src/handle/LoginHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Midterm/src/menu/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/out/production/Login-Logout-Register(Midterm)/handle/AccountFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/out/production/Login-Logout-Register(Midterm)/handle/AccountHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Midterm/out/production/Login-Logout-Register(Midterm)/handle/AccountHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/src/handle/AccountHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Midterm/src/handle/AccountHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/src/handle/CheckValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Midterm/src/handle/CheckValid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -28,7 +28,7 @@ public class AccountHandle {
         System.out.println("Đăng ký tài khoản thành công.");
     }
 
-    public void login(Scanner sc, ArrayList<Account> accountsM) {
+    public void login(Scanner sc, ArrayList<Account> accountsL) {
         Menu menu = new Menu();
         Account loginAccount = new Account();
         AccountHandle accountHandle = new AccountHandle();
@@ -39,15 +39,20 @@ public class AccountHandle {
         String password = sc.nextLine();
         loginAccount.setPassword(password);
         loginAccount = accountHandle.checkLogin(username, password);
-        accountsM = accounts;
-        for (Account account : accountsM) {
+        accountsL = accounts;
+        for (Account account : accountsL) {
             if (account.getUsername().equals(username) && account.getPassword().equals(password)) {
                 System.out.println("Xin chào " + loginAccount.getUsername());
-                menu.selectOptionLogin(sc, accountsM, loginAccount);
+                menu.selectOptionLogin(sc, accountsL, loginAccount);
             }
         }
         System.out.println("Đăng nhập thất bại");
-        menu.select(sc, accountsM);
+        menu.select(sc, accountsL);
+    }
+
+    public void logout() {
+        isLoggedIn = false;
+        System.out.println("Đăng xuất thành công!");
     }
 
     public void changeUsername(Scanner sc, ArrayList<Account> accounts, Account account) {
@@ -96,19 +101,16 @@ public class AccountHandle {
         }
     }
 
-
     public void changePassword(Scanner sc, Account account) {
         AccountHandle accountHandle = new AccountHandle();
         System.out.println("Nhập password mới: ");
         String newPassword = accountHandle.inputPassword(sc);
-        account.setPassword(newPassword);
-        System.out.println("Thay đổi password thành công");
-    }
-
-
-    public void logout() {
-        isLoggedIn = false;
-        System.out.println("Đăng xuất thành công!");
+        while (account.getPassword().equals(newPassword)) {
+            System.out.println("Trùng với mật khẩu cũ! Hãy nhập một mật khẩu mới: ");
+            newPassword = accountHandle.inputPassword(sc);
+        }
+            account.setPassword(newPassword);
+            System.out.println("Thay đổi password thành công");
     }
 
     public String inputUsername(Scanner sc) {
@@ -120,7 +122,7 @@ public class AccountHandle {
                 isValis = true;
             } else {
                 System.out.println("Username cần dài từ 5 đến 20 ký tự");
-                System.out.println("vui lòng nhập lại: ");
+                System.out.println("Vui lòng nhập lại: ");
             }
         }
         return username;
@@ -153,7 +155,7 @@ public class AccountHandle {
         boolean isValid = false;
         while (!isValid) {
             password = sc.nextLine();
-            if (password.length() >= 8 && password.length() <= 20) {
+            if (password.length() >= 7 && password.length() <= 15) {
                 try {
                     if (!CheckValid.validatePassword(password))
                         throw new InvalidPasswordException("Password yếu.");
@@ -163,7 +165,7 @@ public class AccountHandle {
                     System.out.println(e.getMessage() + " Vui lòng nhập lại");
                 }
             } else {
-                System.out.println("Password cần dài từ 8 đến 20 ký tự");
+                System.out.println("Password cần dài từ 7 đến 15 ký tự");
                 System.out.println("Vui lòng nhập lại");
             }
         }
@@ -182,7 +184,6 @@ public class AccountHandle {
             System.out.println("Email chưa được đăng ký");
         }
     }
-
 
     public Account checkLogin(String username, String password) {
         AccountHandle accountHandle = new AccountHandle();
