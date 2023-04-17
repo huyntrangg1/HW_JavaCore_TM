@@ -1,7 +1,7 @@
 package handle;
 
-import MyException.InvalidEmailException;
-import MyException.InvalidPasswordException;
+import myexception.InvalidEmailException;
+import myexception.InvalidPasswordException;
 import entity.Account;
 import menu.Menu;
 
@@ -13,6 +13,7 @@ public class AccountHandle {
     private Scanner sc = new Scanner(System.in);
     private static ArrayList<Account> accounts = new ArrayList<>();
 
+    //dang ky:
     public void register() {
         System.out.println("Nhập username:");
         String username = inputUsername(sc);
@@ -24,6 +25,7 @@ public class AccountHandle {
         System.out.println("Đăng ký tài khoản thành công.");
     }
 
+    //dang nhap:
     public void login(Scanner sc, ArrayList<Account> accountsL) {
         Menu menu = new Menu();
         Account loginAccount = new Account();
@@ -46,11 +48,13 @@ public class AccountHandle {
         menu.select(sc, accountsL);
     }
 
+    //dang xuat:
     public void logout() {
         isLoggedIn = false;
         System.out.println("Đăng xuất thành công!");
     }
 
+    //thay doi username
     public void changeUsername(Scanner sc, ArrayList<Account> accounts, Account account) {
         AccountHandle accountHandle = new AccountHandle();
         System.out.println("Nhập username mới: ");
@@ -74,6 +78,7 @@ public class AccountHandle {
         }
     }
 
+    //thay doi email
     public void changeEmail(Scanner sc, ArrayList<Account> accounts, Account account) {
         AccountHandle accountHandle = new AccountHandle();
         System.out.println("Nhập email mới: ");
@@ -97,6 +102,7 @@ public class AccountHandle {
         }
     }
 
+    //thay doi password
     public void changePassword(Scanner sc, Account account) {
         AccountHandle accountHandle = new AccountHandle();
         System.out.println("Nhập password mới: ");
@@ -105,10 +111,11 @@ public class AccountHandle {
             System.out.println("Trùng với mật khẩu cũ! Hãy nhập một mật khẩu mới: ");
             newPassword = accountHandle.inputPassword(sc);
         }
-            account.setPassword(newPassword);
-            System.out.println("Thay đổi password thành công");
+        account.setPassword(newPassword);
+        System.out.println("Thay đổi password thành công");
     }
 
+    //nhap dau vao:
     public String inputUsername(Scanner sc) {
         boolean isValis = false;
         String username = new String();
@@ -168,6 +175,7 @@ public class AccountHandle {
         return password;
     }
 
+    //quen mkhau
     public void forgetPassword(Scanner sc) {
         AccountHandle accountHandle = new AccountHandle();
         System.out.println("Nhập email: ");
@@ -181,6 +189,7 @@ public class AccountHandle {
         }
     }
 
+    //ktra tai khoan dang nhap
     public Account checkLogin(String username, String password) {
         AccountHandle accountHandle = new AccountHandle();
         for (Account account : accounts) {
@@ -194,6 +203,7 @@ public class AccountHandle {
         return null;
     }
 
+    //cap nhat mk cho chuc nang quen mk
     public void updatePassword(String email, String newPassword) {
         AccountHandle accountHandle = new AccountHandle();
         for (Account account : accounts) {

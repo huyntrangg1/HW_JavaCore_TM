@@ -1,4 +1,4 @@
-package MyException;
+package myexception;
 
 public class InvalidEmailException extends Exception{
     public InvalidEmailException(String message) {
