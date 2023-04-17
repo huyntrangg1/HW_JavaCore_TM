@@ -1,5 +1,4 @@
 import entity.Account;
-
 import menu.Menu;
 
 import java.util.ArrayList;

@@ -14,17 +14,13 @@ public class AccountHandle {
     private static ArrayList<Account> accounts = new ArrayList<>();
 
     public void register() {
-        Account newAccount = new Account();
         System.out.println("Nhập username:");
         String username = inputUsername(sc);
         System.out.println("Nhập email:");
         String email = inputEmail(sc);
         System.out.println("Nhập password:");
         String password = inputPassword(sc);
-        newAccount.setUsername(username);
-        newAccount.setEmail(email);
-        newAccount.setPassword(password);
-        accounts.add(newAccount);
+        accounts.add(new Account(username, email, password));
         System.out.println("Đăng ký tài khoản thành công.");
     }
 
@@ -32,10 +28,10 @@ public class AccountHandle {
         Menu menu = new Menu();
         Account loginAccount = new Account();
         AccountHandle accountHandle = new AccountHandle();
-        System.out.println("Enter username: ");
+        System.out.println("Nhập username: ");
         String username = sc.nextLine();
         loginAccount.setUsername(username);
-        System.out.println("Enter password: ");
+        System.out.println("Nhập password: ");
         String password = sc.nextLine();
         loginAccount.setPassword(password);
         loginAccount = accountHandle.checkLogin(username, password);
