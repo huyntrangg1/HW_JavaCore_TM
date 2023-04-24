@@ -59,7 +59,6 @@ public class Menu {
     }
 
     public void selectOptionLogin(Scanner sc, ArrayList<Account> accounts,Account account ) {
-
         AccountHandle accountHandle = new AccountHandle();
         boolean flag = true;
         while (flag) {
