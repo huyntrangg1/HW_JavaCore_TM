@@ -127,7 +127,6 @@ public class StaffHandle {
                 break;
             }
         }
-
         if (!flag) {
             System.out.println("Không tồn tại id bạn nhập!");
         }
